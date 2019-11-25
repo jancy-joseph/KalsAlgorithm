@@ -6,6 +6,15 @@ namespace ConsoleApp1
 {
     static class UniqueElement
     {
+        /// <summary>
+        /// 1. Find the element that appears once in a sorted array where all other elements appear twice one after another. 
+        /// Find that element in 0(logn) complexity.
+        /// Input: arr[] = {1, 1, 3, 3, 4, 5, 5, 7, 7, 8, 8}
+        /// Output: 4
+        /// </summary>
+        /// <param name="numberArray"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
         public static void search(int[] numberArray, int low, int high)
         {
             if (low > high)
