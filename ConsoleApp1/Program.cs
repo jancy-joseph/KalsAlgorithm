@@ -27,6 +27,16 @@ namespace ConsoleApp1
             //                                    index);
 
 
+            // Let us search 3 in below array 
+            //int[] arr1 = { 5, 6, 7, 8, 9, 10, 1, 2, 3 };
+            //int[] arr1 = { 3, 4, 5, 6, 7 };
+            //int[] arr1 = { 9, 0, 1, 3, 4, 5, 6, 7, 8 };
+            int[] arr1 = { 9, 10, 11, 12, 1, 2, 3, 4, 5 };
+            //int[] arr1 = { 3, 4, 1 };
+            int n = arr1.Length;
+            int key = 3;
+            int result = RotatedSortedArray.findElement(arr1, key);
+            Console.WriteLine("Found result{0}", result);
             Console.ReadKey();
         }
     }
