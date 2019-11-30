@@ -6,6 +6,15 @@ namespace ConsoleApp1
 {
     static class RotatedSortedArray
     {
+        /// <summary>
+        /// 3. Given a sorted array of n integers that has been rotated an unknown number of times, write
+        //code to find an element in the array.You may assume that the array was originally sorted in
+        //increasing order
+        /// </summary>
+        /// <param name="numArray"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
+        /// <returns></returns>
         public static int findPivot(int[] numArray, int low, int high)
         {
             if (low > high)
