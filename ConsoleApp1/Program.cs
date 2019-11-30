@@ -39,8 +39,13 @@ namespace ConsoleApp1
             //Console.WriteLine("Found result{0}", result);
 
             //int[] arr = { 9, 8, 2, 6, 1, 8, 5, 3, 4, 7 };
-            int[] arr = { 1, 2, 2 };
-            FindDuplicate.findDuplicateFunc(arr);
+            //int[] arr = { 1, 2, 2 };
+            //FindDuplicate.findDuplicateFunc(arr);
+
+            int[] arr = {8 ,7, 6, 7, 6, 5,
+                     4,3, 2, 3, 4, 3 };
+            int x = 3;
+            SearchAdjacentElement.FindElement(arr, 3);
             Console.ReadKey();
         }
     }
