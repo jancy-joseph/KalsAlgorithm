@@ -42,10 +42,13 @@ namespace ConsoleApp1
             //int[] arr = { 1, 2, 2 };
             //FindDuplicate.findDuplicateFunc(arr);
 
-            int[] arr = {8 ,7, 6, 7, 6, 5,
-                     4,3, 2, 3, 4, 3 };
-            int x = 3;
-            SearchAdjacentElement.FindElement(arr, 3);
+            //int[] arr = {8 ,7, 6, 7, 6, 5,
+            //         4,3, 2, 3, 4, 3 };
+            //int x = 3;
+            //SearchAdjacentElement.FindElement(arr, 3);
+
+            int[] arr = { 1, 2, 3, 4, 5, 5 };
+            SplitArray.SplitArrayFunc(arr);
             Console.ReadKey();
         }
     }
