@@ -49,8 +49,13 @@ namespace ConsoleApp1
 
             //int[] arr = { 1, 2, 3, 4, 5, 5 };
             //SplitArray.SplitArrayFunc(arr);
-            string st = "– 2 * ( 3 + 5(sasdfasdfasd)";
-            char result = StackMissingParanthesis.findMissingParnthesis(st);
+
+            //string st = "– 2 * ( 3 + 5(sasdfasdfasd)";
+            //char result = StackMissingParanthesis.findMissingParnthesis(st);
+
+            string st = "2*3+1";
+            //string st = "2+3*1";
+            EvaluateExpression.EvaluateExpressionFunc(st);
             Console.ReadKey();
         }
     }
